@@ -233,15 +233,6 @@ export default function Home() {
         <div className="mx-auto max-w-6xl">
           <div className="flex flex-wrap items-end justify-between gap-5">
             <h2 className="text-4xl font-bold text-gray-800">Projects</h2>
-            <a
-              className="animate-button inline-flex h-11 items-center gap-2 rounded-md border border-indigo-200 bg-white px-4 text-sm font-semibold text-indigo-600 hover:bg-indigo-50"
-              href="https://cloud0521.github.io/portfolio/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Original Portfolio
-              <ArrowUpRight className="animate-icon size-4" aria-hidden="true" />
-            </a>
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {projects.map((project, projectIndex) => (
