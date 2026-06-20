@@ -55,7 +55,7 @@ const projects = [
     title: "Biaknabato Connect Community Portal",
     summary:
       "A Next.js barangay website concept for Biaknabato, featuring resident services, local announcements, emergency guidance, office contacts, and a simple inquiry flow.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "GitHub Pages"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     url: "https://cloud0521.github.io/biaknabato-connect/",
   },
   {
@@ -309,9 +309,6 @@ export default function Home() {
               <a className="block text-indigo-50 transition hover:text-white" href="mailto:cloudd000argando28@gmail.com">
                 cloudd000argando28@gmail.com
               </a>
-              <a className="block text-indigo-50 transition hover:text-white" href="https://github.com/cloud0521" target="_blank" rel="noreferrer">
-                github.com/cloud0521
-              </a>
               <a className="block text-indigo-50 transition hover:text-white" href="https://ph.linkedin.com/in/cloyd-argando-44480a346" target="_blank" rel="noreferrer">
                 ph.linkedin.com/in/cloyd-argando-44480a346
               </a>
@@ -365,9 +362,6 @@ export default function Home() {
           <div className="flex gap-4">
             <a className="text-gray-400 transition-colors hover:text-white" href="https://ph.linkedin.com/in/cloyd-argando-44480a346" target="_blank" rel="noreferrer">
               LinkedIn
-            </a>
-            <a className="text-gray-400 transition-colors hover:text-white" href="https://github.com/cloud0521" target="_blank" rel="noreferrer">
-              GitHub
             </a>
           </div>
         </div>
