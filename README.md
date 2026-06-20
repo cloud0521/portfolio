@@ -5,7 +5,7 @@ Personal portfolio for Cloyd D. Argando, built with Next.js, TypeScript, Tailwin
 Live site:
 
 ```text
-https://cloud0521.github.io/portpolio/
+https://cloud0521.github.io/portfolio/
 ```
 
 ## Local Development
@@ -22,7 +22,7 @@ Open `http://127.0.0.1:3000`.
 The workflow in `.github/workflows/deploy.yml` builds the static export with:
 
 ```bash
-NEXT_PUBLIC_BASE_PATH=/portpolio npm run build
+NEXT_PUBLIC_BASE_PATH=/portfolio npm run build
 ```
 
 and deploys the generated `out` folder to GitHub Pages.

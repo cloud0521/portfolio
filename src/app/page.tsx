@@ -235,7 +235,7 @@ export default function Home() {
             <h2 className="text-4xl font-bold text-gray-800">Projects</h2>
             <a
               className="animate-button inline-flex h-11 items-center gap-2 rounded-md border border-indigo-200 bg-white px-4 text-sm font-semibold text-indigo-600 hover:bg-indigo-50"
-              href="https://cloud0521.github.io/portpolio/"
+              href="https://cloud0521.github.io/portfolio/"
               target="_blank"
               rel="noreferrer"
             >
